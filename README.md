@@ -2,8 +2,6 @@
 Read this in other language:
 [_Português_](README.pt-BR.md)
 
-# Reconhecimento de Veículos 
-
 ## Table of Contents
 
 - [Description](#Description)
