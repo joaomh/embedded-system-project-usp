@@ -1,7 +1,7 @@
 # Vehicle Feature Recognition
-Read this in other language:
 Project developed for the Embedded Systems Course (SEM0544 - 2020.1) of the Mechatronic Engineering Major - São Carlos School of Engineering - University of São Paulo (USP)
 
+Read this in other language:
 [_Português_](README.pt-BR.md)
 
 ## Table of Contents
