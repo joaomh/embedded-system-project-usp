@@ -1,5 +1,5 @@
 # Reconhecimento de Veículos 
-
+Projeto desenvolvido para a discplina de Sistemas Embarcados ( SEM0544 - 2020.1 ) do Curso de Engenharia Mecatrônica Escola de Engenharia de Sâo Carlos - Universidade de São Paulo (USP)
 ## Sumário
 
 - [Descrição](#Descrição)
