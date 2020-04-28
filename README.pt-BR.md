@@ -36,6 +36,6 @@ Este projeto foca no desenvolvimento de um sistema embarcado para o reconhecimen
 
 ## Desenvolvedores
 - [Eduardo Key Shiratori](https://github.com/EduardoKeyS)
-- [Joao Pinheiro](https://github.com/joaomh)
+- [João Pinheiro](https://github.com/joaomh)
 - [Raphael Hideki](https://github.com/raphaelyokosawa/)
 - [Reon Fujieda](https://github.com/reonfk)
