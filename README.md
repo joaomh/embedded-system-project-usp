@@ -26,6 +26,6 @@ This project focuses on the development of a vehicle feature recognition and lic
 
 ## Developers
 - [Eduardo Key Shiratori](https://github.com/EduardoKeyS)
-- [Joao Pinheiro](https://github.com/joaomh)
+- [João Pinheiro](https://github.com/joaomh)
 - [Raphael Hideki](https://github.com/raphaelyokosawa/)
 - [Reon Fujieda](https://github.com/reonfk)
