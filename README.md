@@ -31,3 +31,4 @@ This project focuses on the development of a vehicle feature recognition and lic
 - [João Pinheiro](https://github.com/joaomh)
 - [Raphael Hideki](https://github.com/raphaelyokosawa/)
 - [Reon Fujieda](https://github.com/reonfk)
+- [Valter Teodoro](https://github.com/valterteodoro)
