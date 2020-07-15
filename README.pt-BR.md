@@ -33,6 +33,10 @@ Este projeto foca no desenvolvimento de um sistema embarcado para o reconhecimen
 
 ## Tecnologias
 - Python
+- C++
+- Intel® Distribution of OpenVINO™ Toolkit
+- JavaScript
+
 
 ## Desenvolvedores
 - [Eduardo Key Shiratori](https://github.com/EduardoKeyS)
