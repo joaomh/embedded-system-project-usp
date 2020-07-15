@@ -25,6 +25,9 @@ This project focuses on the development of a vehicle feature recognition and lic
 
 ## Technologies
 - Python
+- C++
+- Intel® Distribution of OpenVINO™ Toolkit
+- JavaScript
 
 ## Developers
 - [Eduardo Key Shiratori](https://github.com/EduardoKeyS)
