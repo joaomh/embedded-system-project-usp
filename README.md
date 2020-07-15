@@ -8,6 +8,7 @@ Read this in other language:
 
 - [Description](#Description)
 - [Requirement](#Requirement)
+- [Setup](#setup)
 - [Technologies](#technologies)
 - [Developers](#Developers)
 
@@ -19,9 +20,83 @@ This project focuses on the development of a vehicle feature recognition and lic
 
 ## Requirement
 
-### Functional Requirement
- 
-### Non Functional Requirement
+### Software
+We recommended to use Ubuntu, but above is the Setup Environment for other OS
+*   [Windows Setup](./windows.md)
+*   [MacOs Setup](./mac.md)
+*   [Linux Setup](./linux.md)
+*   [Ubuntu 20.04 LTS](https://ubuntu.com/#download)
+*   Intel® Distribution of OpenVINO™ toolkit 2019 R1 release
+*   OpenCL™ Runtime Package
+*   Node v6.17.1
+*   Npm v3.10.10
+*   MQTT Mosca\* server
+*   Python 3.5 or 3.6
+
+## Setup
+
+### Install Intel® Distribution of OpenVINO™ toolkit
+
+Refer to https://software.intel.com/en-us/articles/OpenVINO-Install-Linux for more information about how to install and setup the Intel® Distribution of OpenVINO™ toolkit.
+
+You will need the OpenCL™ Runtime Package if you plan to run inference on the GPU. It is not mandatory for CPU inference. 
+
+### Install Nodejs and its depedencies
+
+- This step is only required if the user previously used Chris Lea's Node.js PPA.
+
+	```
+	sudo add-apt-repository -y -r ppa:chris-lea/node.js
+	sudo rm -f /etc/apt/sources.list.d/chris-lea-node_js-*.list
+	sudo rm -f /etc/apt/sources.list.d/chris-lea-node_js-*.list.save
+	```
+- To install Nodejs and Npm, run the below commands:
+	```
+	curl -sSL https://deb.nodesource.com/gpgkey/nodesource.gpg.key | sudo apt-key add -
+	VERSION=node_6.x
+	DISTRO="$(lsb_release -s -c)"
+	echo "deb https://deb.nodesource.com/$VERSION $DISTRO main" | sudo tee /etc/apt/sources.list.d/nodesource.list
+	echo "deb-src https://deb.nodesource.com/$VERSION $DISTRO main" | sudo tee -a /etc/apt/sources.list.d/nodesource.list
+	sudo apt-get update
+	sudo apt-get install nodejs
+	```
+
+### Install the following dependencies
+
+```
+sudo apt update
+sudo apt-get install python3-pip
+pip3 install numpy
+pip3 install paho-mqtt
+sudo apt install libzmq3-dev libkrb5-dev
+sudo apt install ffmpeg
+```
+### Install npm
+
+We need to run in separate terminals these items below for this application to work:
+
+-   MQTT Mosca server 
+-   Node.js* Web server
+-   FFmpeg server
+     
+Go <path_directory>
+```
+cd <path_directory>
+```
+* For mosca server:
+   ```
+   sudo npm install npm -g 
+   rm -rf node_modules
+   npm cache clean
+   npm config set registry "http://registry.npmjs.org"
+   npm install
+   ```
+
+* For Web server:
+  ```
+  cd ../ui
+  npm install
+  ```
 
 ## Technologies
 - Python
