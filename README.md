@@ -97,6 +97,80 @@ cd <path_directory>
   cd ../ui
   npm install
   ```
+## Configure the application
+
+### What model to use
+
+By default, this application uses the **vehicle-license-plate-detection-barrier-0106** Intel® model, that can be accessed using the **model downloader**.
+
+#### Download the __.xml__ and __.bin__ files
+
+Go to the **model downloader** directory:
+
+  ```
+  cd /opt/intel/openvino/deployment_tools/tools/model_downloader
+  ```
+
+Specify which model to download with `--name`.
+- To download the person-detection-retail-0013 model, run the following command:
+
+  ```
+  sudo ./downloader.py --name vehicle-license-plate-detection-barrier-0106
+  ```
+- To optimize the model for FP16, run the following command:
+   ```
+   sudo ./downloader.py --name vehicle-license-plate-detection-barrier-0106
+   ```
+
+## Run the application
+
+Go to car-detection directory:
+```
+cd <path_directory>
+```
+### Step 1 - Start the Mosca server
+
+```
+cd webservice/server/node-server
+node ./server.js
+```
+
+You should see the following message, if successful:
+```
+Mosca server started.
+```
+
+### Step 2 - Start the GUI
+
+Open new terminal and run below commands.
+```
+cd ../../ui
+npm run dev
+```
+
+You should see the following message in the terminal.
+```
+webpack: Compiled successfully
+```
+
+### Step 3 - FFmpeg Server
+
+Open new terminal and run the below commands.
+```
+cd ../..
+sudo ffserver -f ./ffmpeg/server.conf
+```
+
+### Step 4 - Run the code
+
+Open a new terminal to run the code.
+
+#### Setup the environment
+
+You must configure the environment to use the Intel® Distribution of OpenVINO™ toolkit one time per session by running the following command:
+```
+source /opt/intel/openvino/bin/setupvars.sh -pyver 3.5
+```
 
 ## Technologies
 - Python
