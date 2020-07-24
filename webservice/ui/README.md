@@ -1,4 +1,4 @@
-# Intel People Counter
+# Intel Plate Detection
 Based on the Amplified starter kit, which uses...
 
 - Webpack 2  
