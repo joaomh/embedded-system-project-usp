@@ -13,7 +13,7 @@ Read this in other language:
 - [Developers](#Developers)
 
 ## Description
-This project focuses on the development of a vehicle feature recognition and license plate
+This project focuses on the development of a vehicle feature recognition and license plate.
 
 ![Example](./assets/vehicle_ex.jpeg)
 
