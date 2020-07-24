@@ -68,7 +68,7 @@ def build_argparser():
                         help="Print performance counters")
     return parser
 
-
+# perfomance count function
 def performance_counts(perf_count):
     """
     print information about layers of the model.
