@@ -9,6 +9,8 @@ Read this in other language:
 - [Description](#Description)
 - [Requirement](#Requirement)
 - [Setup](#setup)
+- [Conclusion](#Conclusion)
+- [Future Work](#future-work)
 - [Technologies](#technologies)
 - [Developers](#Developers)
 
