@@ -21,7 +21,7 @@ This project focuses on the development of a vehicle feature recognition and lic
 
 Using Beaglebone Black Rev C
 
-!{Beaglebone Black Rev C](./assets/beagle.png)
+![Beaglebone Black Rev C](./assets/beagle.png)
 
 ## Requirement
 ### Hardware 
