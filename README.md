@@ -198,6 +198,11 @@ You must configure the environment to use the IntelÂ® Distribution of OpenVINOâ„
 ```
 source /opt/intel/openvino/bin/setupvars.sh -pyver 3.5
 ```
+## Conclusion
+One of the problems found in the project was the interface with the DC motor to trigger the opening of the gate. The openVINO system was made for amd64 processors but it was found to work perfectly in ARM architecture (Raspberry Pi) the same as BeagleBone Black.
+
+## Future works
+For future work the ideal is to perform the interface of the DC motor and the assembly of the prototype on the circuit board, no experimental approach has been made, only the validation of the computer vision model and the functioning of the software, that is, we do not know the behavior in real time.
 
 ## Technologies
 - Python
