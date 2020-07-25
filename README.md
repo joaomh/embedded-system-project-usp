@@ -19,6 +19,12 @@ This project focuses on the development of a vehicle feature recognition and lic
 
 
 ## Requirement
+### Hardware 
+* [Beaglebone Black Rev C](https://www.filipeflop.com/produto/beaglebone-black-rev-c/)
+* Power Converter circuit to power the BeagleBone through the 9V Battery
+* [Intel® Movidius™ Vision Processing Unit (VPU)](https://software.intel.com/content/www/us/en/develop/tools/openvino-toolkit/hardware.html)
+* USB Camera 720p
+* Jumpers, protoboard, resistors
 
 ### Software
 We recommended to use Ubuntu, but above is the Setup Environment for other OS
@@ -26,12 +32,20 @@ We recommended to use Ubuntu, but above is the Setup Environment for other OS
 *   [MacOs Setup](./mac.md)
 *   [Linux Setup](./linux.md)
 *   [Ubuntu 20.04 LTS](https://ubuntu.com/#download)
+*   [Web Cam Interfacing](https://www.engineersgarage.com/contributions/web-cam-interfacing-with-beaglebone-black-part-10-15/)
+*   [CAN BeagleBone](https://www.embarcados.com.br/can-com-beaglebone-black-e-python/)
 *   Intel® Distribution of OpenVINO™ toolkit 2019 R1 release
 *   OpenCL™ Runtime Package
 *   Node v6.17.1
 *   Npm v3.10.10
 *   MQTT Mosca\* server
 *   Python 3.5 or 3.6
+
+## Tracker
+## Model
+[SSD Model](https://towardsdatascience.com/understanding-ssd-multibox-real-time-object-detection-in-deep-learning-495ef744fab)
+
+![SSD](./assets/ssd.png)
 
 ## Setup
 
