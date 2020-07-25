@@ -42,6 +42,8 @@ We recommended to use Ubuntu, but above is the Setup Environment for other OS
 *   Python 3.5 or 3.6
 
 ## Tracker
+![Tracker](./assets/tracker.png)
+
 ## Model
 [SSD Model](https://towardsdatascience.com/understanding-ssd-multibox-real-time-object-detection-in-deep-learning-495ef744fab)
 
