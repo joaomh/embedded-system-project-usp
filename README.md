@@ -42,6 +42,16 @@ We recommended to use Ubuntu, but above is the Setup Environment for other OS
 *   MQTT Mosca\* server
 *   Python 3.5 or 3.6
 
+### Functional requirements
+ * The system should identify the condominium car and open the gate for it.
+* The system must have an interface that allows to read authorizations for visitors' cars to enter (commonly known as "the owner generates a QR code for the visitor, he puts it in the scanner of the intercom, and opens the gate if the QR hits the authorized QR" or "a camera that checks the signs is broken, but the owner can show his QR and open the gate ")
+
+### Non-functional requirements
+* The system must respond to 90% of checks in less than 5 seconds (or any arbitrary number).
+* The system must properly authorize 100% of the time (it is preferable that it does not recognize an authorized license plate and excludes a secondary registration check of an unauthorized license plate and lets someone in).
+* The system must load the incoming carriage and activate the gate actuator after 2 seconds of entry.
+
+
 ## Tracker
 ![Tracker](./assets/tracker.png)
 
