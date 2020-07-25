@@ -10,7 +10,7 @@ Read this in other language:
 - [Requirement](#Requirement)
 - [Setup](#setup)
 - [Conclusion](#Conclusion)
-- [Future Work](#future-work)
+- [Future Work](#future-works)
 - [Technologies](#technologies)
 - [Developers](#Developers)
 
