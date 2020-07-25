@@ -34,6 +34,7 @@ We recommended to use Ubuntu, but above is the Setup Environment for other OS
 *   [Ubuntu 20.04 LTS](https://ubuntu.com/#download)
 *   [Web Cam Interfacing](https://www.engineersgarage.com/contributions/web-cam-interfacing-with-beaglebone-black-part-10-15/)
 *   [CAN BeagleBone](https://www.embarcados.com.br/can-com-beaglebone-black-e-python/)
+*   [EPOS](https://github.com/griloHBG/passivity_project)
 *   Intel® Distribution of OpenVINO™ toolkit 2019 R1 release
 *   OpenCL™ Runtime Package
 *   Node v6.17.1
