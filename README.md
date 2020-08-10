@@ -12,6 +12,7 @@ Read this in other language:
 - [Conclusion](#Conclusion)
 - [Future Work](#future-works)
 - [Technologies](#technologies)
+- [Reference](#reference)
 - [Developers](#Developers)
 
 ## Description
@@ -208,6 +209,12 @@ One of the problems found in the project was the interface with the DC motor to 
 
 ## Future works
 For future work the ideal is to perform the interface of the DC motor and the assembly of the prototype on the circuit board, no experimental approach has been made, only the validation of the computer vision model and the functioning of the software, that is, we do not know the behavior in real time.
+
+## Reference
+-[Udacity Intel Edge Course](https://www.udacity.com/course/intel-edge-ai-for-iot-developers-nanodegree--nd131)
+-[ONNX Models](https://github.com/onnx/models)
+-[TensorFlow Coco SSD](https://github.com/tensorflow/tfjs-models/tree/master/coco-ssd)
+-[People Counter App](https://github.com/intel-iot-devkit/people-counter-python)
 
 ## Technologies
 - Python
